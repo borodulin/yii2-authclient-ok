@@ -1,0 +1,33 @@
+{
+    "name": "conquer/authclients",
+    "description": "Yii2 Odnoklassniki authclient",
+    "keywords": ["yii2", "extension", "authclient", "odnoklassniki"],
+    "homepage": "https://github.com/borodulin/yii2-authclients",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/borodulin/yii2-authclients/issues",
+        "source": "https://github.com/borodulin/yii2-authclients"
+    },
+    "authors": [
+        {
+            "name": "Andrey Borodulin",
+            "email": "borodulin@gmail.com"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+          "dev-master": "1.0.0.x-dev"
+        }
+    },
+    "require": {
+    	"php": ">=5.4.0",
+    	"yiisoft/yii2": "*",
+    	"yiisoft/yii2-authclient": "*"
+    },
+	"autoload": {
+		"psr-4": {
+			"conquer\\authclients\\": ""
+		}
+	}
+}
