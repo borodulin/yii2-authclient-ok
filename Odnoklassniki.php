@@ -54,7 +54,7 @@ class Odnoklassniki extends \yii\authclient\OAuth2
         $params["application_key"] = $this->publicKey;
         if (ksort($params)) {
             $requestStr = "";
-            foreach($params as $key => $value){
+            foreach ($params as $key => $value) {
                 $requestStr .= $key . "=" . $value;
             }
             $requestStr .= md5($accessToken->getToken() . $this->clientSecret);
